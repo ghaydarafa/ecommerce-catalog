@@ -1,0 +1,42 @@
+:root {
+  --purple: #720060;
+  --pink: #fde2ff;
+  --white: #ffffff;
+}
+
+body.women {
+  background-image: url(@/assets/bg-women.png);
+}
+
+.title.women {
+  color: var(--purple);
+}
+
+.dot.women {
+  border: 1px solid var(--purple);
+  background-color: var(--purple);
+}
+
+.dot.women.blank {
+  background-color: white;
+}
+
+.price.women {
+  color: var(--purple);
+}
+
+.buy-button.women {
+  background-color: var(--purple);
+}
+
+.next-button.women {
+  background-color: white;
+  border: 3px solid var(--purple);
+  color: var(--purple);
+}
+
+.next-button.women:hover {
+  background-color: var(--purple);
+  border: 3px solid var(--purple);
+  color: white;
+}

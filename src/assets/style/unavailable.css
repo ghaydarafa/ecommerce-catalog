@@ -1,0 +1,28 @@
+body.unavailable {
+  background-image: url(@/assets/bg-unavailable.png);
+}
+
+.content-unavailable {
+  margin-top: 19%;
+}
+
+p.unavailable {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.next-button.unavailable {
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: white;
+}
+.next-button.unavailable:hover {
+  background-color: black;
+  border: 3px solid black;
+  color: white;
+}

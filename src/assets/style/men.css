@@ -1,0 +1,42 @@
+:root {
+  --darkblue: #002772;
+  --lightblue: #d6e6ff;
+  --white: #ffffff;
+}
+
+body.men {
+  background-image: url(@/assets/bg-men.png);
+}
+
+.title.men {
+  color: var(--darkblue);
+}
+
+.dot.men {
+  border: 1px solid var(--darkblue);
+  background-color: var(--darkblue);
+}
+
+.dot.men.blank {
+  background-color: white;
+}
+
+.price.men {
+  color: var(--darkblue);
+}
+
+.buy-button.men {
+  background-color: var(--darkblue);
+}
+
+.next-button.men {
+  background-color: white;
+  border: 3px solid var(--darkblue);
+  color: var(--darkblue);
+}
+
+.next-button.men:hover {
+  background-color: var(--darkblue);
+  border: 3px solid var(--darkblue);
+  color: white;
+}
